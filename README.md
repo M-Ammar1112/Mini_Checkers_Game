@@ -14,6 +14,13 @@ The 6x6 Mini Checkers game is a simplified version of the classic checkers game,
 
 • In a mini checker’s game developed in Python with a GUI using the Tkinter library, the 2D array can be implemented as a list of lists, where each sub list represents a row on the game board and the elements of each sub list represent the squares in that row.
 
+## ALGORITHMS:
+• Minimax: Used to determine the best move for the AI player, considering all possible moves and counter-moves and assigning a score to each position to determine the best outcome.
+
+• Alpha-Beta Pruning: An optimization to the Minimax algorithm, to eliminate branches of the game tree that will not affect the final decision.
+
+• Breadth First Search: Used to generate all possible moves from a given position on the board.
+
 
 
 
