@@ -30,6 +30,11 @@ Alpha-Beta pruning is a technique used to optimize the Minimax algorithm. It wor
 ### BREADTH FIRST SEARCH:
 Breadth First Search is a search algorithm used to find the shortest path between two points in a graph. In the context of mini checkers, it can be used to determine the shortest path for a piece to reach the opposite end of the board and become "kinged". The algorithm works by exploring all the neighboring squares of the current square, before moving on to the next set of squares. This ensures that the shortest path is found, as the algorithm will always explore the squares closest to the starting point first.
 
+## OVERVIEW OF THE BOARD:
+
+<img width="458" alt="image" src="https://github.com/M-Ammar1112/Mini_Checkers_Game/assets/129176302/229f03b5-592b-4d6f-aaa1-3d15f31d51b1">
+
+
 ## CONCLUSION:
 In conclusion, the 6x6 Mini Checkers game is a unique and engaging implementation of the classic checkers game, combining traditional game mechanics with modern computer programming techniques. The game is developed using data structures, algorithms, and a GUI in Python using the Tkinter library, offering an interactive and challenging experience for players of all skill levels. The use of algorithms such as Minimax, Alpha-Beta Pruning, and Breadth First Search play a crucial role in the game's implementation, allowing for efficient and effective decision-making by the AI player. This combination of classic game mechanics with advanced computer science techniques results in a thrilling and entertaining experience for players.
 
