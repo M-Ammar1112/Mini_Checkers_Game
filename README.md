@@ -21,6 +21,16 @@ The 6x6 Mini Checkers game is a simplified version of the classic checkers game,
 
 • Breadth First Search: Used to generate all possible moves from a given position on the board.
 
+### MINIMAX:
+Minimax is a decision-making algorithm that helps the AI player determine the best move to make in a game. It works by evaluating all possible moves and outcomes, considering both the player's and the opponent's moves. The algorithm assigns scores to each possible outcome, with the goal of maximizing the score for the AI player and minimizing the score for the opponent. The AI player chooses the move that results in the highest score for itself.
 
+### ALPHA-BETA PRUNING:
+Alpha-Beta pruning is a technique used to optimize the Minimax algorithm. It works by eliminating branches of the game tree that are not relevant to the outcome of the game, allowing for a faster and more efficient evaluation of possible moves. The algorithm uses two values, alpha and beta, to keep track of the best outcome for the AI player and the opponent, respectively. Branches that have values less than alpha or greater than beta are pruned, since they will not affect the outcome of the game.
+
+### BREADTH FIRST SEARCH:
+Breadth First Search is a search algorithm used to find the shortest path between two points in a graph. In the context of mini checkers, it can be used to determine the shortest path for a piece to reach the opposite end of the board and become "kinged". The algorithm works by exploring all the neighboring squares of the current square, before moving on to the next set of squares. This ensures that the shortest path is found, as the algorithm will always explore the squares closest to the starting point first.
+
+## CONCLUSION:
+In conclusion, the 6x6 Mini Checkers game is a unique and engaging implementation of the classic checkers game, combining traditional game mechanics with modern computer programming techniques. The game is developed using data structures, algorithms, and a GUI in Python using the Tkinter library, offering an interactive and challenging experience for players of all skill levels. The use of algorithms such as Minimax, Alpha-Beta Pruning, and Breadth First Search play a crucial role in the game's implementation, allowing for efficient and effective decision-making by the AI player. This combination of classic game mechanics with advanced computer science techniques results in a thrilling and entertaining experience for players.
 
 
